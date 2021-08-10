@@ -1,3 +1,5 @@
+what need to do?
+
 1) Create EC2 Instance t2.micro
      Amazon Linux
      Ubuntu
@@ -7,3 +9,11 @@
 4) On EC2 Ubuntu, install a web server (nginx/apache);
      - Create a web page with the text “Hello World” and information about the current version of the operating system. This page must be visible from the Internet. 
 5) On EC2 Ubuntu install Docker, installation should be done according to the recommendation of the official Docker manuals 
+
+
+
+
+how was it done? 
+
+1) created terraform code for aws_instance
+    
