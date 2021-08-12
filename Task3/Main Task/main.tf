@@ -146,6 +146,16 @@ resource "aws_security_group" "amazonlinuxsg" {
     protocol    = "icmp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+  
+   dynamic "egress" {
+    for_each = ["80", "443", "22"]
+    content {
+      from_port   = egress.value
+      to_port     = egress.value
+      protocol    = "tcp"
+      cidr_blocks = ["11.0.11.100/32"]
+    }
+  }
 
   egress {
     from_port   = 0
