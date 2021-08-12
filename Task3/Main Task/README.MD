@@ -17,10 +17,47 @@ how was it done?
 
 
 1) Installed Terraform...
-created code for instances with Tags... 
+Created aws_instances... or full code please see main.tf
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/M1.png)
 
 
 
+2) Created Security Group For Ubuntu instance To have incoming and outgoing access on ports from anywhere...
+
+incoming 
 
 
-2) Created Security Group For Amazon Linux instance.
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/M2.png)
+
+
+outgoing
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/M3.png)
+
+
+3) Created Security Group For Centos Instance To have incoming and outgoing access on ports from only local network
+
+incoming
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/M4.png)
+
+
+outgoing
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/m5.png)
+
+
+4-5) Created script.sh which Can install nginx on ubuntu + will change default nginx file and will install docker on ubuntu...
+
+for code Please See script.sh File
+
+
+
+Thank you...
+
+
+
