@@ -19,28 +19,7 @@ how was it done?
 1) Installed Terraform...
 created code for instances with Tags... 
 
-resource "aws_instance" "AmazonLinux" {
-  ami                    = "ami-02b4e72b17337d6c1" #amazon linux
-  instance_type          = "t2.micro"
-  vpc_security_group_ids = [aws_security_group.amazonlinuxextrasg.id]
-  subnet_id              = aws_subnet.public-extra.id
-  user_data              = file("script.sh")
 
-  tags = {
-    name = "Amazon Linux"
-  }
-}
-
-resource "aws_instance" "Ubuntu" {
-  ami                    = "ami-0a8e758f5e873d1c1" #Ubuntu
-  instance_type          = "t2.micro"
-  vpc_security_group_ids = [aws_security_group.ubuntuextrasg.id]
-  subnet_id              = aws_subnet.private-extra.id
-
-  tags = {
-    name = "Ubuntu"
-  }
-}
 
 
 
