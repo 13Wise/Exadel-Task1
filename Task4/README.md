@@ -83,3 +83,28 @@ what need to do?
 	
 	
 	
+	So we Have default ENV value
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-8.png)
+	
+	
+	we run new docker run command for change ENV value
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/10.png)
+	
+	
+	and Here is our changed ENV
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-10.png)
+	
+	
+	
+	
+	
+	
+	
+	
+	4)
+	
