@@ -1,4 +1,6 @@
 what need to do?
+
+
 6) Complete  step 1, but AMI ID cannot be hardcoded. You can hardcode operation system name, version, etc. 
 7) Step 3 read as: 
 EC2 CentOS should have outgoing and incoming access: ICMP, TCP/22, 80, 443, only to EC2 Ubuntu. 
