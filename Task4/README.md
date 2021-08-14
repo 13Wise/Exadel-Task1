@@ -106,4 +106,20 @@ what need to do?
 	
 	
 	
+	4) So for push i changed tag of my image and after that pushed in to docker hub
 	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-11.png)
+	
+	
+	
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-12.png)
+	
+	
+	
+	
+	
+	
+	4.1)
