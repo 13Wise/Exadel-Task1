@@ -54,4 +54,18 @@ what need to do?
 	
 	
 	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-4.png)
 	
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-5.png)
+	
+	
+	
+	
+	3.1 and 3.1.1) We already Have this file... see 2.1....
+	
+	
+	
+	
+       3.2) 
