@@ -30,7 +30,22 @@ what need to do?
     How was it done?
     
     
-    1) Created Script for AWS Instance User Data...
+    1) Created Script for AWS Instance User Data...(EXTRA 1.1)
     
     
     ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-1.png)
+
+    
+	
+    2) log in into docker via SSH and run command "docker run hello-world"
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-2.png)
+	
+	
+	so now we have docker image "hello-world"
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-3.png)
+	
+	
+	
