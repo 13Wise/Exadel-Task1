@@ -68,4 +68,18 @@ what need to do?
 	
 	
 	
-       3.2) 
+       3.2)  I changed docker file... added script.sh in it... when we restrat our container for change "ENV" this two commands must run automatically...
+	
+	
+	Dockerfile
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-6.png)
+	
+	
+	script.sh
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-7.png)
+	
+	
+	
