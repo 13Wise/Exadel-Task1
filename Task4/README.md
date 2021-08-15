@@ -140,8 +140,8 @@ what need to do?
 	
 	
 	
-	5.1) created docker-compose.yml and build it... i have apache, postgres and jenkins...
-	
+	5.1) created docker-compose.yml and build it... i have apache, postgres and jenkins... For 5 nodes i used command : 
+	docker-compose up --scale apache=5 -d
 	
 	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-dockercomp.png)
 	
