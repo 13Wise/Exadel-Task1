@@ -1,0 +1,22 @@
+FROM ubuntu:18.04
+
+
+ENV DEVOPS wise
+
+RUN apt-get -y update
+RUN apt-get install -y apache2
+
+
+COPY script.sh /usr/local/bin/script.sh
+
+RUN chmod a+x /usr/local/bin/script.sh
+
+
+CMD ["script.sh"]
+
+
+
+
+
+EXPOSE 80
+
