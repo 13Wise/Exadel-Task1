@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+        apache:
+                build:
+                        context: .
+                        dockerfile: appache.dockerfile
+                ports:
+                        - "80"
+        database:
+                build:
+                        context: .
+                        dockerfile: post.dockerfile
+                ports:
+                        - "5432:5432"
+                env_file:
+                        - ./.env.dev
+
+
+        jenkins:
+                image: jenkins/jenkins
+                ports:
+                       - "8080:8080"
+                       - "50000:50000"
+                volumes:
+                       - jenkins_home:/var/jenkins_home
+                depends_on:
+                       - database
+volumes:
+        jenkins_home:
