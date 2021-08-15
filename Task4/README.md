@@ -122,4 +122,46 @@ what need to do?
 	
 	
 	
-	4.1)
+	4.1) I used github action for this...
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-workmain.png)
+	
+	
+	
+	
+	it passed 
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-work.png)
+	
+	
+	
+	
+	
+	
+	
+	5.1) created docker-compose.yml and build it... i have apache, postgres and jenkins...
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-dockercomp.png)
+	
+	
+	
+	everything is working...
+	
+	
+	![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t4-jenkins.png)
+	
+	
+	
+	I used ENV file for user, password and database... i can not uplode it here for security reasons...
+	
+	
+	To see docker files please look at Dockerfile folder in to my github...
+	
+	
+	
+	Thank you...
+	
+	
+	
