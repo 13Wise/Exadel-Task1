@@ -31,4 +31,4 @@ jobs:
           context: ./Task4/Dockerfile/
           file: ./Task4/Dockerfile/apache.dockerfile
           push: true
-          tags: wise13/ex-repo:latest
+          tags: wise13/ex-repo:hubimage
