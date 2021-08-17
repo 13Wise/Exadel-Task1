@@ -17,7 +17,7 @@
         state: latest
         update_cache: yes
       vars:
-	packages:
+        packages:
         - python-pip
         - yum-utils
         - device-mapper-persistent-data
@@ -32,7 +32,7 @@
 
     - name: Enable Docker CE service at startup
       service:
-	name: docker
+        name: docker
         state: started
         enabled: yes
 
