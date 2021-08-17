@@ -22,7 +22,7 @@
         - yum-utils
         - device-mapper-persistent-data
         - lvm2
-	- amazon-linux-extras
+        - amazon-linux-extras
 
     - name: Add extras repository
       shell: yum-config-manager --enable extras
