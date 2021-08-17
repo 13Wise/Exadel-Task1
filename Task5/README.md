@@ -35,7 +35,7 @@ Connected via SSH to Main one and installed ansible via command for amazon linux
 
 For Ping pong I created hosts.txt file where We have host linux IP, user and SSH-KEY...
 
-![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t5-3.png)
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t5-5.png)
 
 
 now we can connect to our hosts via ping command : ansible -i hosts.txt all -m ping 
