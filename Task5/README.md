@@ -60,6 +60,12 @@ So now We can use simpy comand for ping our hosts : ansible all -m ping
 
 
 
+for ansible-playbook I created file docker_playbook.yml(For full config please See file "docker_playbook.yml" on my GITHUB and run it...
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t5-8.png)
+
+
 
 
 
