@@ -44,6 +44,16 @@ now we can connect to our hosts via ping command : ansible -i hosts.txt all -m p
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t5-4.png)
 
 
+Also I modified Ansible.cfg file for ansible to know where our remote servers are stored...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t5-6.png)
+
+
+So now We can use simpy comand for ping our hosts : ansible all -m ping
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/t5-7.png)
+
 
 
 
