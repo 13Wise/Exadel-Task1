@@ -18,6 +18,9 @@ EXTRA 3. For the execution of playbooks, dynamic inventory must be used (GALAXY 
 
 
 
+
+
+
 How was it done?
 
 
