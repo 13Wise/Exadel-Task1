@@ -48,3 +48,5 @@ now we can connect to our hosts via ping command : ansible -i hosts.txt all -m p
 
 
 
+
+
