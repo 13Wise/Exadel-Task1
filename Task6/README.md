@@ -35,3 +35,15 @@ How was it done?
 
 After It I install plugins: Docker, Docker-API, Docker Pipeline 
 
+
+
+For connection to docker first i change docker.service config file "/lib/systemd/system/docker.service"  and add "ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock"
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-8.JPG)
+
+
+
+After it on jenkins GUI I add Cloud "docker"
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-7.JPG)
+
