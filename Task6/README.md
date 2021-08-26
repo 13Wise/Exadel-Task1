@@ -105,3 +105,13 @@ here is the result
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-16-3.JPG)
 
+
+
+and the last task encrypted password for it I added in jenkins credential Secret text and created new pipeline with password...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-19.JPG)
+
+
+here is the result 
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-17.JPG)
