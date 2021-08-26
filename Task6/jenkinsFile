@@ -1,0 +1,37 @@
+pipeline {
+    agent { label 'agent1' }
+    
+     environment {
+        PASSWORD = credentials('password')
+    }
+
+    
+    stages {
+        stage('Test') {
+            steps {
+                sh 'whoami'
+                sh 'ls -la /var/run/docker.sock'
+                sh 'docker ps -a'
+            }
+        }
+        stage('Git Clone') {
+            steps {
+                sh 'git clone https://github.com/13Wise/Exadel-Task1.git'
+                sh 'ls -l Exadel-Task1/Task4/Dockerfile'
+            }
+        }
+        stage('Build Dockerfile') {
+            steps {
+                sh 'cp Exadel-Task1/Task4/Dockerfile/script.sh .'
+                sh 'docker build -t exadel/wise -f Exadel-Task1/Task4/Dockerfile/apache.dockerfile .'
+            }
+            
+        }
+        stage('Run Container') {
+            steps {
+                sh 'docker run -d -e PASSWORD=${PASSWORD} exadel/wise'
+            }
+            
+        }
+    }
+}
