@@ -50,3 +50,15 @@ After it on jenkins GUI I add Cloud "docker"
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-7.JPG)
 
+
+after I added Docker agent Template... Configure it and Save it... so I created new job "test" for check if my agent work perfectly and here we go...
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-9.JPG)
+
+
+for another agent I did same way...
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-10.JPG)
+
