@@ -28,12 +28,15 @@ How was it done?
 
 2) I Installed Sugested Plugins From jenkins and configure new admin user and password...
 
-![alt text](
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-6.JPG)
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-4.JPG)
 
 
 After It I install plugins: Docker, Docker-API, Docker Pipeline 
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-5.JPG)
 
 
 
