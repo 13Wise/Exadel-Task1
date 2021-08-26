@@ -62,3 +62,46 @@ for another agent I did same way...
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-10.JPG)
 
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-11.JPG)
+
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-12.JPG)
+
+ 
+Now we should create freestyle job which will show us current time... so first we should add plugin called "Build timestamp" and configure it to GMT+4
+
+
+so after we can create New freestyle job and build it...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-13.JPG)
+
+
+Here we go... 
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-14.JPG)
+
+
+So now we should create Pipeline...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-20.JPG)
+
+and build it... here we have Result
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-15.JPG)
+
+
+no we should create another pipeline and use dockerfile from our github...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-18.JPG)
+
+here is the result 
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-16-1.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-16-2.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T6-16-3.JPG)
+
