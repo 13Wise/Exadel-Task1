@@ -87,4 +87,5 @@ now we can create our dashboard...
 
 
 Passive Check - Zabbix server(Poller) connects to the agent Port 10050/TCP 
+
 Active check - Agent connect to the Zabbix Server(trapper)  Port 10051/TCP
