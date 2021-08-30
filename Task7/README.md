@@ -74,3 +74,12 @@ So if we did everything correctly we should see page with Username and password.
 
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-7.JPG)
+
+
+now we can create our dashboard...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-8.JPG)
+
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-10.JPG)
