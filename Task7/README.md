@@ -83,3 +83,8 @@ now we can create our dashboard...
 
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-10.JPG)
+
+
+
+Passive Check - Zabbix server(Poller) connects to the agent Port 10050/TCP 
+Active check - Agent connect to the Zabbix Server(trapper)  Port 10051/TCP
