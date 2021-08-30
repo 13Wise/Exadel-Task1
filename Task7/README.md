@@ -159,3 +159,7 @@ For Maintenance created New Maintenance Configuration => Maintenance => Create M
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-25.JPG)
 
+
+New Dashbord
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-28.JPG)
