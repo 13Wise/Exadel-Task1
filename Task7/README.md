@@ -89,3 +89,23 @@ now we can create our dashboard...
 Passive Check - Zabbix server(Poller) connects to the agent Port 10050/TCP 
 
 Active check - Agent connect to the Zabbix Server(trapper)  Port 10051/TCP
+
+
+
+I Created Active and Passive Check... Configuration => Hosts => Zabbix Server(Our host) Items => Create Item...
+
+
+Active : 
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-11.JPG)
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-12.JPG)
+
+
+Passive : 
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-14.JPG)
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-13.JPG)
