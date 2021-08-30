@@ -120,7 +120,9 @@ Poller is Passive, Trapper is Active...
 
 
 
-For ICMP Ping I added another host Called Agent-ICMP, Configure IT added IP and Template Module...
+For ICMP Ping firtst configured /etc/zabbix/zabbix_server.conf File then I added another host Called Agent-ICMP, Configure it added IP and Template Module...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-26.JPG)
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-18.JPG)
 
@@ -135,6 +137,9 @@ So Ping is working
 
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-16.JPG)
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-27.JPG)
 
 
 
