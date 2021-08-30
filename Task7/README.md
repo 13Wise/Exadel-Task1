@@ -109,3 +109,48 @@ Passive :
 
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-13.JPG)
+
+
+
+
+Poller is Passive, Trapper is Active...
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-15.JPG)
+
+
+
+For ICMP Ping I added another host Called Agent-ICMP, Configure IT added IP and Template Module...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-18.JPG)
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-19.JPG)
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-17.JPG)
+
+
+So Ping is working 
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-16.JPG)
+
+
+
+For Alert i created another trigger Configuration => Hosts => Zabbix Server(Our host) Triggers => Create Trigger...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-20.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-21.JPG)
+
+For Maintenance created New Maintenance Configuration => Maintenance => Create Maintenance period
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-22.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-24.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-23.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-25.JPG)
+
