@@ -163,3 +163,29 @@ For Maintenance created New Maintenance Configuration => Maintenance => Create M
 New Dashbord
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-28.JPG)
+
+
+
+
+2. Nobody is forgotten
+
+
+So now we should install ELK, for it I created docker-compose file... here is install, Elasticsearch, Kibana and Filebeat(for logs)... for full docker-compose file See Task7/ymlfiles... For Filebeat i created Filebeat.yml... So now we can run command docker-compose up, Waiting and here we go... We can connect To ELK...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-30.JPG)
+
+Now For logs we should Create new "Index patterns" And Configure Filebeat...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-34.JPG)
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-35.JPG)
+
+
+Nice now We can See our logs...
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-36.JPG)
+
+
+
