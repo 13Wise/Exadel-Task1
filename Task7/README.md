@@ -170,7 +170,7 @@ New Dashbord
 2. Nobody is forgotten
 
 
-So now we should install ELK, for it I created docker-compose file... here is install, Elasticsearch, Kibana and Filebeat(for logs)... for full docker-compose file See Task7/ymlfiles... For Filebeat i created Filebeat.yml... So now we can run command docker-compose up, Waiting and here we go... We can connect To ELK...
+So now we should install ELK, for it I created docker-compose file... here is install, Elasticsearch, Kibana and Filebeat(for logs)... for full docker-compose file See Task7/ymlfiles... For Filebeat i created Filebeat.yml... So now we can run command docker-compose up, Waiting and here we go... We can connect To ELK from browser http://ip:5601...
 
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-30.JPG)
 
@@ -188,4 +188,53 @@ Nice now We can See our logs...
 ![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-36.JPG)
 
 
+
+After It I Created Dashbord and named it "Exadel-Dashbord"
+
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-33.JPG)
+
+
+Now We Should Create Metrics... for it I used official documantation and install metrics on my Docker... So Here we go...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-31.JPG)
+
+
+We Can See Our docker information into Dashboard...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-32.JPG)
+
+
+And The Last Step "His Excellency Mr. Grafana" 
+
+
+To install Grafana I used docker-compose file... you can see it in my Github Task7/ymlfiles...
+
+now we can connect from browser http://Ip:3000...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-38.JPG)
+
+
+In Dashbord Panel we can see our docker informatin 
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-37.JPG)
+
+
+For Integrate ELK to Grafana We Should Add new Data Source...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-39.JPG)
+
+And here we go everything Is Okay...
+
+
+now we Can add dashboard with ELK...
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-40.JPG)
+
+![alt text](https://s3.eu-west-1.amazonaws.com/by.bucket-exadel/T7-41.JPG)
+
+Everything is Working...
+
+
+Thank you!!!
 
